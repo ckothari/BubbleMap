@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <meta charset="utf-8">
+    <head>
+        <script   src="https://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+        <script src="bubbleMap.js"></script>
+        <script src="index.js"></script>
+
+    </head>
+    <style>
+        path {
+            stroke: white;
+            stroke-width: 1px;
+            fill: #cbcbcb;
+        }
+
+        .bubble {
+            fill-opacity: .8;
+            stroke: #fff;
+            stroke-width: .5px;
+            pointer-events: none;
+        }
+    </style>
+    <body>
+
+    <div style = 'width: 100%'>
+        <div class="map-component-view"></div>
+    </div>
+    </body>
+</html>
